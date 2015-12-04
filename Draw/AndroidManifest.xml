@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yzxy.draw"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="9" 
+        android:maxSdkVersion="9"/>
+    
+    <supports-screens
+            android:smallScreens="true"
+            android:normalScreens="true"
+            android:largeScreens="true"
+            android:resizeable="true"
+            android:anyDensity="true" />
+    <uses-permission android:name="android.permission.BLUETOOTH"></uses-permission>  
+<uses-permission android:name="android.permission.BLUETOOTH_ADMIN"></uses-permission>  
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"  >
+        <activity
+            android:name="com.yzxy.draw.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yzxy.draw.SetActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+          <activity
+            android:name="com.yzxy.draw.HelpActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+ <service android:name="com.yzxy.draw.MyService" > </service>
+        
+        
+        
+    </application>
+
+</manifest>

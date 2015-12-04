@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<TextView 
+    android:layout_height="36dp"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginTop="100dp"
+    android:gravity="center"
+    android:text="软件详情"
+    android:background="#bfbfbf"/>
+
+    <ImageView
+        android:id="@+id/helpimage"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/clr_normal" />
+<TextView 
+    android:layout_height="120dp"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="#bfbfbf"
+    android:text="软件名称：温度实时测控系统
+    开发方：上大通信嵌入式2015项目组
+    联系方式：18818219197（马）
+    指导老师：陆晓峰/韩军
+  用途：实时蓝牙采集温度信息，传出控制信息，实现温度监控
+    "/>
+    
+
+</LinearLayout>

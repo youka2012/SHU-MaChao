@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spingarr">
+     <item>1号箱</item>  
+    <item>2号箱</item>  
+    <item>3号箱</item>  
+    <item>4号箱</item>  
+    </string-array>
+</resources>
